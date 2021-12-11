@@ -1,0 +1,130 @@
+body {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 100%;
+  /* background gradient at top of page, from http://www.colorzilla.com/gradient-editor/ */
+  background: -moz-linear-gradient(top, #ffa853 0%, #fdf9bd 2%);
+
+  background: linear-gradient(top, #ffa853 0%, #fdf9bd 2%);
+  background: -o-linear-gradient(top, #ffa853 0%, #fdf9bd 2%);
+  background: -ms-linear-gradient(top, #ffa853 0%, #fdf9bd 2%);
+  background: linear-gradient(top, #ffa853 0%, #fdf9bd 2%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffa853', endColorstr='#fdf9bd', GradientType=0);
+  background-repeat: repeat-x;
+  background-color: #fdf9bd;
+  /* Old browsers */
+  margin: 0;
+}
+/* link styles */
+
+a {
+  color: darkblue;
+  margin-left: 1em;
+  padding: 0em;
+}
+
+a:visited {
+  text-decoration: underline darkmagenta dotted;
+  text-decoration: underline darkmagenta dotted;
+  color: darkmagenta;
+}
+
+a:hover {
+  color: tomato;
+  text-decoration: underline tomato dotted;
+  text-decoration: underline darkmagenta dotted;
+}
+
+a:active {
+  color: rgb(240, 195, 210);
+}
+
+/* styles for the intro section */
+
+#intro {
+  color: black;
+  text-align: center;
+}
+
+#intro h1 {
+  margin-bottom: 0;
+  text-align: center;
+}
+
+#intro h2 {
+  color: #f26521;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 15px;
+  margin-top: 0em;
+}
+
+#intro p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+}
+
+.text {
+  display: flex;
+}
+.text > p {
+  margin-left: 55px;
+}
+/* styles for the products section */
+
+#products {
+  color: black;
+}
+#products em {
+  color: #f26521;
+}
+
+#products h2 {
+  text-align: center;
+  color: #ac267b;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 17px;
+  margin-top: 1.5em;
+  margin-bottom: 2em;
+}
+
+#products h3 {
+  color: #f26521;
+  font-size: 15px;
+  text-transform: uppercase;
+  border-top: solid;
+  border-top-width: 0.1em;
+  border-left: solid;
+  border-left-width: 0.2em;
+  margin: 1em;
+  padding-left: 1em;
+}
+
+#products img {
+  padding-left: 2em;
+  padding-top: 0.5em;
+}
+
+#products .more {
+  margin-top: 7px;
+  margin-bottom: 2em;
+}
+
+#content {
+  border: #ffbc53;
+  border-style: double;
+  background-color: white;
+  margin: 0.5em;
+}
+
+/* miscellaneous styles */
+
+em {
+  color: #f26521;
+}
+
+em:hover {
+  color: red;
+  background: cornsilk;
+}
